@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-
-import { connect } from 'react-redux';
-
 import { Col } from 'react-bootstrap';
 
-export class NotFound extends Component {
+export default class NotFound extends Component {
   render() {
     return (
       <Col sm={6}>
@@ -14,8 +11,3 @@ export class NotFound extends Component {
     );
   }
 }
-
-export default connect(
-  null,
-  null
-)(NotFound);

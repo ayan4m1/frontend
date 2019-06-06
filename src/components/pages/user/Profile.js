@@ -1,10 +1,7 @@
+import { Col } from 'react-bootstrap';
 import React, { Component } from 'react';
 
-import { connect } from 'react-redux';
-
-import { Col } from 'react-bootstrap';
-
-export class Profile extends Component {
+export default class Profile extends Component {
   render() {
     return (
       <Col sm={6}>
@@ -13,8 +10,3 @@ export class Profile extends Component {
     );
   }
 }
-
-export default connect(
-  null,
-  null
-)(Profile);

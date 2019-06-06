@@ -1,25 +1,15 @@
 import React, { Component } from 'react';
-
 import { connect } from 'react-redux';
-
+import { Router } from '@reach/router';
 import { Container, Row } from 'react-bootstrap';
 
 import Header from './templates/Header';
-
 import Footer from './templates/Footer';
-
-import { Router } from '@reach/router';
-
 import Calculator from './pages/Calculator';
-
 import Flavors from './pages/Flavors';
-
 import Home from './pages/Home';
-
 import User from './pages/User';
-
 import Login from './pages/Login';
-
 import Register from './pages/Register';
 
 export class App extends Component {

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-
-import { connect } from 'react-redux';
-
 import { Button, Container, Form } from 'react-bootstrap';
 
-export class Login extends Component {
+export default class Login extends Component {
   render() {
     return (
       <Container>
@@ -32,8 +29,3 @@ export class Login extends Component {
     );
   }
 }
-
-export default connect(
-  null,
-  null
-)(Login);
