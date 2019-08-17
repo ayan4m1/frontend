@@ -73,7 +73,7 @@ export class Recipe extends Component {
       appActions.popToast({
         title: 'Success!',
         icon: null,
-        message: 'This recipe has been added your favorites'
+        message: 'This recipe has been added to your favorites'
       });
     }
   }
