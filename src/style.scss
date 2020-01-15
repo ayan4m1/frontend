@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Architects+Daughter|Quicksand&display=swap");
-@import "./_variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Quicksand&display=swap');
+@import './_variables.scss';
 
 // Changes the font site-wide
 * {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 // Forces scrollbar to always be present, to combat the center being
@@ -123,7 +123,7 @@ hr {
 
 // Styling for nav "brand" (MixNJuice "logo")
 .navbar-brand {
-  font-family: "Architects Daughter", cursive;
+  font-family: 'Architects Daughter', cursive;
   font-size: 3em;
 }
 
@@ -149,6 +149,14 @@ hr {
   background-color: $teal;
 }
 
+// Changing disabled buttons to grey
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: gray('800');
+  background-color: gray('300');
+  border-color: gray('800');
+}
+
 // Changing the border of any form fields
 .form-control {
   outline: 0 none;
@@ -170,7 +178,7 @@ hr {
 
 // Changing the background for the text next to an input field
 .input-group-text {
-  background-color: gray("200");
+  background-color: gray('200');
 }
 
 // Changing the column width of the ingredient percent input
@@ -201,7 +209,7 @@ input {
 }
 
 // Style for file inputs
-.custom-file-input[type="file"] {
+.custom-file-input[type='file'] {
   border: 1px solid $black;
   border-radius: 0.25rem;
   padding: 5px;
@@ -238,7 +246,7 @@ input {
     transition: none;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 100%;
       transform: scaleX(0);
@@ -253,7 +261,7 @@ input {
   }
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -320,7 +328,7 @@ input {
 
   @media screen and (prefers-reduced-motion: reduce) {
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       bottom: 0;
@@ -334,7 +342,7 @@ input {
 
   @media screen and (prefers-reduced-motion: reduce) {
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       bottom: 0;
@@ -347,7 +355,7 @@ input {
   }
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: 0;
@@ -426,6 +434,7 @@ input {
   border: 1px solid $teal;
   border-radius: 5px;
   background-color: $lighter-blue;
+  white-space: pre;
 
   &:hover,
   &:focus {
