@@ -7,7 +7,7 @@ executors:
       - image: circleci/buildpack-deps:stretch
 jobs:
   build:
-    working_directory: ~/gusta-frontend
+    working_directory: ~/mixnjuice-frontend
     docker:
       - image: circleci/node:latest
     steps:
