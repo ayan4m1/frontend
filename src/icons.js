@@ -1,7 +1,12 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
+  faAngleDoubleLeft,
+  faAngleDoubleRight,
+  faAngleLeft,
+  faAngleRight,
   faBezierCurve,
   faCheck,
+  faCheckCircle,
   faCheckSquare as fasCheckSquare,
   faChevronLeft,
   faCity,
@@ -14,12 +19,15 @@ import {
   faGlobe,
   faHeart as fasHeart,
   faInfoCircle,
+  faList,
+  faMinusCircle,
   faPlus,
   faSave,
   faSearch,
   faStar as fasStar,
   faSync,
   faTachometerAlt,
+  faTh,
   faTimes,
   faTimesCircle,
   faToggleOff,
@@ -29,24 +37,23 @@ import {
   faUser,
   faUsers,
   faUsersCog,
-  faUserShield,
-  faList,
-  faTh,
-  faAngleDoubleLeft,
-  faAngleDoubleRight,
-  faAngleLeft,
-  faAngleRight
+  faUserShield
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faCheckSquare,
   faHeart as farHeart,
-  faStar as farStar,
-  faSquare
+  faSquare,
+  faStar as farStar
 } from '@fortawesome/free-regular-svg-icons';
 
 library.add(
+  faAngleDoubleLeft,
+  faAngleDoubleRight,
+  faAngleLeft,
+  faAngleRight,
   faBezierCurve,
   faCheck,
+  faCheckCircle,
   faCheckSquare,
   faChevronLeft,
   faCity,
@@ -58,6 +65,8 @@ library.add(
   faFire,
   faGlobe,
   faInfoCircle,
+  faList,
+  faMinusCircle,
   faPlus,
   farHeart,
   farStar,
@@ -65,11 +74,14 @@ library.add(
   fasCheckSquare,
   faSearch,
   fasHeart,
+  fasHeart,
   faSquare,
   fasStar,
   faSync,
   faTachometerAlt,
+  faTh,
   faTimes,
+  faTimesCircle,
   faTimesCircle,
   faToggleOff,
   faToggleOn,
@@ -78,13 +90,7 @@ library.add(
   faUser,
   faUsers,
   faUsersCog,
-  faUserShield,
-  faList,
-  faTh,
-  faAngleDoubleLeft,
-  faAngleDoubleRight,
-  faAngleRight,
-  faAngleLeft
+  faUserShield
 );
 
 export default library;
